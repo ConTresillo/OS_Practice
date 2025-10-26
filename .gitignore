@@ -1,0 +1,21 @@
+# Ignore CLion/JetBrains IDE files
+.idea/
+
+# Ignore CMake build directories
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+*.ninja
+*.obj
+*.exe
+
+# Ignore temporary files
+*.log
+*.yaml
+*.txt~
+*.swp
+
+# Ignore build outputs
+build/
+out/
